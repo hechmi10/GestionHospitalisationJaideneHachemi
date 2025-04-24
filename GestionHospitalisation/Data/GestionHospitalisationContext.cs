@@ -14,7 +14,16 @@ namespace GestionHospitalisation.Data
         {
         }
 
-        public DbSet<GestionHospitalisation.Models.Compte> Compte { get; set; } = default!;
-        public DbSet<GestionHospitalisation.Models.Service> Service { get; set; }
+        public DbSet<Compte> Compte { get; set; } = default!;
+        public DbSet<Service> Service { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+        public DbSet<Hospitalisation> Hospitalisation { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Hospitalisation>()
+                .HasKey(h => new { h.NumServ, h.CodePat, h.DateEntree });
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

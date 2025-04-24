@@ -1,0 +1,49 @@
+﻿@model GestionHospitalisation.Models.Hospitalisation
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Hospitalisation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NumServ" class="control-label"></label>
+                <input asp-for="NumServ" class="form-control" />
+                <span asp-validation-for="NumServ" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodePat" class="control-label"></label>
+                <input asp-for="CodePat" class="form-control" />
+                <span asp-validation-for="CodePat" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="DateEntree" />
+            <div class="form-group">
+                <label asp-for="DateSortie" class="control-label"></label>
+                <input asp-for="DateSortie" class="form-control" />
+                <span asp-validation-for="DateSortie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Frais" class="control-label"></label>
+                <input asp-for="Frais" class="form-control" />
+                <span asp-validation-for="Frais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
