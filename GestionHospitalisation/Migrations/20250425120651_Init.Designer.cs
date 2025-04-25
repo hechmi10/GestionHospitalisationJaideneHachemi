@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestionHospitalisation.Migrations
 {
     [DbContext(typeof(GestionHospitalisationContext))]
-    [Migration("20250424183616_Initial")]
-    partial class Initial
+    [Migration("20250425120651_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -72,6 +72,8 @@ namespace GestionHospitalisation.Migrations
 
                     b.HasKey("NumServ", "CodePat", "DateEntree");
 
+                    b.HasIndex("CodePat");
+
                     b.ToTable("Hospitalisation");
                 });
 
@@ -84,7 +86,6 @@ namespace GestionHospitalisation.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CodePat"));
 
                     b.Property<DateTime>("DateNaiss")
-                        .HasMaxLength(100)
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Mutuelle")
@@ -123,6 +124,25 @@ namespace GestionHospitalisation.Migrations
                     b.HasKey("NumServ");
 
                     b.ToTable("Service");
+                });
+
+            modelBuilder.Entity("GestionHospitalisation.Models.Hospitalisation", b =>
+                {
+                    b.HasOne("GestionHospitalisation.Models.Patient", "Patient")
+                        .WithMany()
+                        .HasForeignKey("CodePat")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GestionHospitalisation.Models.Service", "Service")
+                        .WithMany()
+                        .HasForeignKey("NumServ")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Patient");
+
+                    b.Navigation("Service");
                 });
 #pragma warning restore 612, 618
         }

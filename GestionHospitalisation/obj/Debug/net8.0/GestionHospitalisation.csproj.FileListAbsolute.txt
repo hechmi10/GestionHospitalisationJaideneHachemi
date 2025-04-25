@@ -262,3 +262,4 @@ C:\Users\hechm\source\repos\GestionHospitalisation\GestionHospitalisation\obj\De
 C:\Users\hechm\source\repos\GestionHospitalisation\GestionHospitalisation\obj\Debug\net8.0\GestionHospitalisation.pdb
 C:\Users\hechm\source\repos\GestionHospitalisation\GestionHospitalisation\obj\Debug\net8.0\GestionHospitalisation.genruntimeconfig.cache
 C:\Users\hechm\source\repos\GestionHospitalisation\GestionHospitalisation\obj\Debug\net8.0\ref\GestionHospitalisation.dll
+C:\Users\hechm\source\repos\GestionHospitalisation\GestionHospitalisation\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll

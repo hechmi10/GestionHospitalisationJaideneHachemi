@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GestionHospitalisation.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -27,21 +27,6 @@ namespace GestionHospitalisation.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Hospitalisation",
-                columns: table => new
-                {
-                    NumServ = table.Column<int>(type: "int", nullable: false),
-                    CodePat = table.Column<int>(type: "int", nullable: false),
-                    DateEntree = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DateSortie = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Frais = table.Column<double>(type: "float", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Hospitalisation", x => new { x.NumServ, x.CodePat, x.DateEntree });
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Patient",
                 columns: table => new
                 {
@@ -49,7 +34,7 @@ namespace GestionHospitalisation.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nom = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Prenom = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    DateNaiss = table.Column<DateTime>(type: "datetime2", maxLength: 100, nullable: false),
+                    DateNaiss = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Mutuelle = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false)
                 },
                 constraints: table =>
@@ -69,6 +54,38 @@ namespace GestionHospitalisation.Migrations
                 {
                     table.PrimaryKey("PK_Service", x => x.NumServ);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Hospitalisation",
+                columns: table => new
+                {
+                    NumServ = table.Column<int>(type: "int", nullable: false),
+                    CodePat = table.Column<int>(type: "int", nullable: false),
+                    DateEntree = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DateSortie = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Frais = table.Column<double>(type: "float", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Hospitalisation", x => new { x.NumServ, x.CodePat, x.DateEntree });
+                    table.ForeignKey(
+                        name: "FK_Hospitalisation_Patient_CodePat",
+                        column: x => x.CodePat,
+                        principalTable: "Patient",
+                        principalColumn: "CodePat",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Hospitalisation_Service_NumServ",
+                        column: x => x.NumServ,
+                        principalTable: "Service",
+                        principalColumn: "NumServ",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Hospitalisation_CodePat",
+                table: "Hospitalisation",
+                column: "CodePat");
         }
 
         /// <inheritdoc />
