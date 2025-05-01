@@ -1,0 +1,39 @@
+﻿@model GestionHospitalisation.Models.Compte
+
+@{
+    ViewData["Title"] = "SignIn";
+}
+
+<h2>Login</h2>
+
+<form asp-action="SignIn" method="post">
+    <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+
+    <div class="form-group">
+        <label asp-for="Login"></label>
+        <input asp-for="Login" class="form-control" />
+        <span asp-validation-for="Login" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sign In</button>
+</form>
+@if (TempData["AuthError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["AuthError"]
+        @if (User.Identity.IsAuthenticated)
+        {
+            <span> (Authenticated but no valid role)</span>
+        }
+    </div>
+}
+
+<div>
+    <p>Don't have an account? <a asp-action="SignUp" asp-controller="Home">Sign up</a></p>
+</div>

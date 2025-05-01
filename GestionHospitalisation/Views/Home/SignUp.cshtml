@@ -1,0 +1,29 @@
+﻿@model GestionHospitalisation.Models.Compte
+@{
+    ViewData["Title"] = "SignUp";
+}
+
+<div class="text-center">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Login" class="control-label"></label>
+            <input asp-for="Login" class="form-control" />
+            <span asp-validation-for="Login" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Role" class="control-label"></label>
+            <select asp-for="Role" class="form-control">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+    <a asp-action="SignIn" asp-controller="Home">Sign In</a>
+</div>
