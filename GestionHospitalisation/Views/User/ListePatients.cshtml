@@ -1,0 +1,45 @@
+﻿@model IEnumerable<GestionHospitalisation.Models.Patient>
+
+@{
+    ViewData["Title"] = "Liste des Patients";
+}
+
+<h1>Liste des Patients</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateNaiss)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mutuelle)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prenom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateNaiss)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mutuelle)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

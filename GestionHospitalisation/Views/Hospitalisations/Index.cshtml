@@ -13,10 +13,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NumServ)
+                @Html.DisplayNameFor(model => model.Service.LibServ)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodePat)
+                @Html.DisplayNameFor(model => $"{model.Patient.Nom} {model.Patient.Prenom}")
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DateSortie)

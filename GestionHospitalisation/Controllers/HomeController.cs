@@ -85,11 +85,11 @@ public class HomeController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> SignOut()
+    public async Task<IActionResult> Logout()
     {
         await _signInManager.SignOutAsync();
         _logger.LogInformation("User logged out.");
-        return RedirectToAction("Index", "Home");
+        return RedirectToAction("SignIn", "Home");
     }
 
     [HttpGet]
