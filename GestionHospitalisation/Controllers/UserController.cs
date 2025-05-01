@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GestionHospitalisation.Controllers
 {
-    [Authorize(Roles = "User")]
+    [Authorize(Roles = nameof(Role.User))]
     public class UserController : Controller
     {
         

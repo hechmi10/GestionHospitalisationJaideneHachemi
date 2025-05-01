@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace GestionHospitalisation.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = nameof(Role.Admin))]
     public class AdminController : Controller
     {
-        
-
-        public AdminController()
-        {
-            
-        }
 
         public IActionResult Index()
         {

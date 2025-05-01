@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using GestionHospitalisation.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace GestionHospitalisation.Data
 {
-    public class GestionHospitalisationContext : DbContext
+    public class GestionHospitalisationContext : IdentityDbContext
     {
         public GestionHospitalisationContext (DbContextOptions<GestionHospitalisationContext> options)
             : base(options)

@@ -1,29 +1,44 @@
 ﻿@model GestionHospitalisation.Models.Compte
+
 @{
-    ViewData["Title"] = "SignUp";
+    ViewData["Title"] = "Sign Up";
 }
 
-<div class="text-center">
-    <form method="post">
-        <div class="form-group">
-            <label asp-for="Login" class="control-label"></label>
-            <input asp-for="Login" class="form-control" />
-            <span asp-validation-for="Login" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Password" class="control-label"></label>
-            <input asp-for="Password" class="form-control" type="password" />
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Role" class="control-label"></label>
-            <select asp-for="Role" class="form-control">
-                <option value="Admin">Admin</option>
-                <option value="User">User</option>
-            </select>
-            <span asp-validation-for="Role" class="text-danger"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-    </form>
-    <a asp-action="SignIn" asp-controller="Home">Sign In</a>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Create a new account</h2>
+        <hr />
+
+        <!-- Add this to display errors -->
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <form asp-action="SignUp" method="post">
+            <div class="form-group">
+                <label asp-for="Login"></label>
+                <input asp-for="Login" class="form-control" />
+                <span asp-validation-for="Login" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Role"></label>
+                <select asp-for="Role" asp-items="Html.GetEnumSelectList<Role>()"
+                        class="form-control"></select>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Register</button>
+        </form>
+		<p>Already have an account? <a asp-action="SignIn" asp-controller="Home">Sign In</a></p>
+    </div>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

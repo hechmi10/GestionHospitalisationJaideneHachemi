@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using GestionHospitalisation.Data;
 using Microsoft.AspNetCore.Authorization;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 
 namespace GestionHospitalisation.Controllers;
 
@@ -13,34 +14,26 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly UserManager<IdentityUser> _userManager;
+    private readonly RoleManager<IdentityRole> _roleManager;
     private readonly GestionHospitalisationContext _context;
 
     public HomeController(
         GestionHospitalisationContext context,
         ILogger<HomeController> logger,
         SignInManager<IdentityUser> signInManager,
-        UserManager<IdentityUser> userManager)
+        UserManager<IdentityUser> userManager,
+        RoleManager<IdentityRole> roleManager)
     {
         _context = context;
         _logger = logger;
         _signInManager = signInManager;
         _userManager = userManager;
+        _roleManager = roleManager;
     }
 
     [Authorize]
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        var user = await _userManager.GetUserAsync(User);
-
-        if (await _userManager.IsInRoleAsync(user, "Admin"))
-        {
-            return RedirectToAction("Index", "Admin");
-        }
-        else if (await _userManager.IsInRoleAsync(user, "User"))
-        {
-            return RedirectToAction("Index", "User");
-        }
-
         return View();
     }
 
@@ -51,16 +44,21 @@ public class HomeController : Controller
 
     [HttpGet]
     [AllowAnonymous]
-    public IActionResult SignIn(string returnUrl = null)
+    public IActionResult SignIn()
     {
-        ViewData["ReturnUrl"] = returnUrl;
+        if (User.Identity.IsAuthenticated)
+        {
+            if (User.IsInRole(Role.Admin.ToString())) // Convert to string
+                return RedirectToAction("Index", "Admin");
+            else
+                return RedirectToAction("Index", "User");
+        }
         return View();
     }
 
     [HttpPost]
     [AllowAnonymous]
-    [ValidateAntiForgeryToken]
-    public async Task<IActionResult> SignIn(Compte model, string returnUrl = null)
+    public async Task<IActionResult> SignIn(Compte model)
     {
         if (ModelState.IsValid)
         {
@@ -73,15 +71,13 @@ public class HomeController : Controller
             if (result.Succeeded)
             {
                 var user = await _userManager.FindByNameAsync(model.Login);
+                var roles = await _userManager.GetRolesAsync(user);
 
-                // Check roles and redirect
-                if (User.IsInRole("Admin"))
-                {
+                if (roles.Contains(Role.Admin.ToString())) // Convert to string
                     return RedirectToAction("Index", "Admin");
-                }
-                return RedirectToAction("Index", "User");
+                else
+                    return RedirectToAction("Index", "User");
             }
-
             ModelState.AddModelError(string.Empty, "Invalid credentials");
         }
         return View(model);
@@ -108,29 +104,50 @@ public class HomeController : Controller
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> SignUp(Compte model)
     {
-        if (ModelState.IsValid)
+        if (!ModelState.IsValid)
         {
-            var user = new IdentityUser { UserName = model.Login };
-            var result = await _userManager.CreateAsync(user, model.Password);
+            return View(model);
+        }
 
-            if (result.Succeeded)
-            {
-                _logger.LogInformation("User created a new account with username {UserName}.", model.Login);
+        var user = new IdentityUser
+        {
+            UserName = model.Login,
+            NormalizedUserName = model.Login.ToUpperInvariant()
+        };
 
-                // Assign default role if needed
-                // await _userManager.AddToRoleAsync(user, "User");
+        var result = await _userManager.CreateAsync(user, model.Password);
 
-                await _signInManager.SignInAsync(user, isPersistent: false);
-                return RedirectToAction("Index", "Home");
-            }
-
+        if (!result.Succeeded)
+        {
             foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);
+                _logger.LogError("User creation error: {Error}", error.Description);
             }
+            return View(model);
         }
 
-        return View(model);
+        // Get the string representation of the role
+        string roleName = model.Role.ToString();
+
+        // Ensure the role exists
+        if (!await _roleManager.RoleExistsAsync(roleName))
+        {
+            await _roleManager.CreateAsync(new IdentityRole(roleName));
+        }
+
+        // Add user to role
+        var roleResult = await _userManager.AddToRoleAsync(user, roleName);
+        if (!roleResult.Succeeded)
+        {
+            await _userManager.DeleteAsync(user);
+            ModelState.AddModelError("", "Failed to assign user role");
+            return View(model);
+        }
+
+        // Sign in and redirect - THIS IS THE CRITICAL FIX
+        await _signInManager.SignInAsync(user, isPersistent: false);
+        return RedirectToAction("Index", roleName); // Redirect to role-specific area
     }
 
     [HttpGet]
