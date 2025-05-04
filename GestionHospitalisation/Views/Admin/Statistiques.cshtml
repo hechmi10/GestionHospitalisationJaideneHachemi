@@ -1,0 +1,182 @@
+﻿@model (List<Hospitalisation> Hospitalisations, List<Patient> Patients, List<Service> Services)
+@{
+    ViewData["Title"] = "Statistiques Médicales";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p>Statistiques complètes sur les hospitalisations, patients et services.</p>
+
+<div class="container mt-4">
+    <!-- Première ligne : Statistiques générales -->
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <h5 class="card-title">Hospitalisations</h5>
+                    <h2 class="card-text">@Model.Hospitalisations.Count</h2>
+                    <p class="card-text">dont @Model.Hospitalisations.Count(h => h.DateSortie == default(DateTime)) en cours</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">Patients</h5>
+                    <h2 class="card-text">@Model.Patients.Count</h2>
+                    @{
+                        var avgAge = Model.Patients.Average(p => (DateTime.Now - p.DateNaiss).TotalDays / 365);
+                    }
+                    <p class="card-text">Âge moyen: @avgAge.ToString("0") ans</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <h5 class="card-title">Services</h5>
+                    <h2 class="card-text">@Model.Services.Count</h2>
+                    <p class="card-text">@Model.Services.Count() actifs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deuxième ligne : Tableaux détaillés -->
+    <div class="row">
+        <!-- Hospitalisations par service -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-warning text-dark">
+                    <h3 class="card-title">Hospitalisations par Service</h3>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Service</th>
+                                <th>Total</th>
+                                <th>En cours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var service in Model.Services)
+                            {
+                                var hospCount = Model.Hospitalisations.Count(h => h.NumServ == service.NumServ);
+                                var currentHosp = Model.Hospitalisations.Count(h => h.NumServ == service.NumServ && h.DateSortie == default(DateTime));
+
+                                <tr>
+                                    <td>@service.LibServ</td>
+                                    <td>@hospCount</td>
+                                    <td>@currentHosp</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Répartition par âge -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h3 class="card-title">Répartition des Patients par Âge</h3>
+                </div>
+                <div class="card-body">
+                    <canvas id="ageChart" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Troisième ligne : Dernières entrées -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h3 class="card-title">Dernières Hospitalisations</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Patient</th>
+                                    <th>Service</th>
+                                    <th>Date entrée</th>
+                                    <th>Date sortie</th>
+                                    <th>Durée</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var hosp in Model.Hospitalisations.OrderByDescending(h => h.DateEntree).Take(10))
+                                {
+                                    var patient = Model.Patients.FirstOrDefault(p => p.CodePat == hosp.CodePat);
+                                    var service = Model.Services.FirstOrDefault(s => s.NumServ == hosp.NumServ);
+                                    var isTerminee = hosp.DateSortie != default(DateTime);
+                                    var duree = isTerminee ?
+                                    (hosp.DateSortie - hosp.DateEntree).TotalDays :
+                                    (DateTime.Now - hosp.DateEntree).TotalDays;
+
+                                    <tr>
+                                        <td>@patient?.Nom @patient.Prenom</td>
+                                        <td>@service?.LibServ</td>
+                                        <td>@hosp.DateEntree.ToString("dd/MM/yyyy")</td>
+                                        <td>@(isTerminee ? hosp.DateSortie.ToString("dd/MM/yyyy") : "En cours")</td>
+                                        <td>@duree.ToString("0") jours</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Répartition par âge
+        var ageCtx = document.getElementById('ageChart').getContext('2d');
+        var ageChart = new Chart(ageCtx, {
+            type: 'bar',
+            data: {
+                labels: ['<20', '20-39', '40-59', '60-79', '80+'],
+                datasets: [{
+                    label: 'Patients',
+                    data: [
+        @CalculateAgeGroup(Model.Patients, 0, 20),
+        @CalculateAgeGroup(Model.Patients, 20, 40),
+        @CalculateAgeGroup(Model.Patients, 40, 60),
+        @CalculateAgeGroup(Model.Patients, 60, 80),
+        @CalculateAgeGroup(Model.Patients, 80, 200)
+                    ],
+                    backgroundColor: '#2ecc71'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        @functions {
+        int CalculateAgeGroup(List<Patient> patients, int minAge, int maxAge)
+        {
+            return patients.Count(p =>
+            {
+                var age = (DateTime.Now - p.DateNaiss).TotalDays / 365;
+                return age >= minAge && age < maxAge;
+            });
+        }
+    }
+</script>
+}

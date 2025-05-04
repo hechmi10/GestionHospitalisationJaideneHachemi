@@ -39,24 +39,5 @@ namespace GestionHospitalisation.Controllers
             var context = _context.Service.ToList();
             return View(context);
         }
-        [HttpPost]
-        public IActionResult ListeHospitalisations(string searchString)
-        {
-            var hospitalisations = _context.Hospitalisation
-                .Include(h => h.Service)
-                .Include(h => h.Patient)
-                .AsQueryable();
-
-            if (!string.IsNullOrEmpty(searchString))
-            {
-                hospitalisations = hospitalisations.Where(h =>
-                    h.Service.LibServ.Contains(searchString) ||
-                    h.Patient.Nom.Contains(searchString) ||
-                    h.Patient.Prenom.Contains(searchString) ||
-                    h.Frais.ToString().Contains(searchString));
-            }
-
-            return View(hospitalisations.ToList());
-        }
     }
 }

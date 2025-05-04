@@ -11,6 +11,42 @@
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\user\\listehospitalisations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\admin\\statistiques.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\admin\\statistiques.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\statistiquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\statistiquescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\hospitalisations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\hospitalisations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\hospitalisationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\hospitalisationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\user\\listepatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\user\\listepatients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\hospitalisationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\hospitalisationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\user\\listeservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\user\\listeservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\hospitalisations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\hospitalisations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +75,12 @@
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\patients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\migrations\\20250501172321_gestionhospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,20 +119,12 @@
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\data\\gestionhospitalisationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\models\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\models\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|solutionrelative:gestionhospitalisation\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77407C8D-2419-4D29-994E-9EF22C262F88}|GestionHospitalisation\\GestionHospitalisation.csproj|c:\\users\\hechm\\source\\repos\\gestionhospitalisation\\gestionhospitalisation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -138,11 +146,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Program.cs",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Program.cs",
@@ -151,7 +159,71 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAAwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T10:40:49.243Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Patient.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Models\\Patient.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:02:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatistiquesController.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\StatistiquesController.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\StatistiquesController.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\StatistiquesController.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Controllers\\StatistiquesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:40:19.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T10:20:11.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:11:58.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Statistiques.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Statistiques.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Admin\\Statistiques.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Statistiques.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Admin\\Statistiques.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T10:41:25.87Z",
               "EditorCaption": ""
             },
             {
@@ -162,7 +234,7 @@
               "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\ListeHospitalisations.cshtml",
               "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListeHospitalisations.cshtml",
               "RelativeToolTip": "GestionHospitalisation\\Views\\User\\ListeHospitalisations.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T18:14:52.105Z",
               "EditorCaption": ""
@@ -175,304 +247,27 @@
               "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\UserController.cs",
               "RelativeToolTip": "GestionHospitalisation\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T10:14:08.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ListePatients.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T18:08:23.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ServicesController.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\ServicesController.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\ServicesController.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\ServicesController.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Controllers\\ServicesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:18:05.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T18:32:49.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T10:39:48.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T10:33:12.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HospitalisationsController.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T18:19:03.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListeServices.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T18:13:15.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Services\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Services\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Services\\Index.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Services\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T18:13:26.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T10:20:11.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\SeedData.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\SeedData.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\SeedData.cs",
-              "RelativeToolTip": "GestionHospitalisation\\SeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:14:56.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:11:58.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GestionHospitalisation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-01T10:24:41.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Patients\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Patients\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Patients\\Index.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Patients\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T17:46:54.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
-              "RelativeToolTip": "GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T10:26:36.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Role.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:11:30.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:47:52.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250501172321_GestionHospitalisation.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:23:21.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250501163542_GestionHospitalisation.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:35:42.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Compte.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Compte.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Compte.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Compte.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Models\\Compte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:29:18.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GestionHospitalisationContext.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:28:12.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250501163241_GestionHospitalisation.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:32:41.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\appsettings.json",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\appsettings.json",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\appsettings.json",
-              "RelativeToolTip": "GestionHospitalisation\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T16:30:22.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Hospitalisation.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Hospitalisation.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Hospitalisation.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Hospitalisation.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Models\\Hospitalisation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:02:40.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Home\\Index.cshtml",
@@ -484,19 +279,247 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Patient.cs",
-              "RelativeToolTip": "GestionHospitalisation\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "HospitalisationsController.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Controllers\\HospitalisationsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:02:46.032Z"
+              "WhenOpened": "2025-05-01T18:19:03.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Hospitalisations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T18:32:49.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Controllers\\ServicesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T18:18:05.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListePatients.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\ListePatients.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T18:08:23.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Home\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T10:39:48.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T10:33:12.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListeServices.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\User\\ListeServices.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T18:13:15.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T18:13:26.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\SeedData.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\SeedData.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\SeedData.cs",
+              "RelativeToolTip": "GestionHospitalisation\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:14:56.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Patients\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Patients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Patients\\Index.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Patients\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T17:46:54.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "GestionHospitalisation\\Views\\Home\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T10:26:36.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Role.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:11:30.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwFsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:47:52.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250501172321_GestionHospitalisation.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501172321_GestionHospitalisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:23:21.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250501163542_GestionHospitalisation.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501163542_GestionHospitalisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:35:42.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Compte.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Compte.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Compte.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Compte.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Models\\Compte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:29:18.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GestionHospitalisationContext.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Data\\GestionHospitalisationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:28:12.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250501163241_GestionHospitalisation.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Migrations\\20250501163241_GestionHospitalisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:32:41.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\appsettings.json",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\appsettings.json",
+              "RelativeToolTip": "GestionHospitalisation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T16:30:22.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Hospitalisation.cs",
+              "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Hospitalisation.cs",
+              "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Hospitalisation.cs",
+              "ToolTip": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Hospitalisation.cs",
+              "RelativeToolTip": "GestionHospitalisation\\Models\\Hospitalisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:02:40.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\_ViewStart.cshtml",
@@ -508,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\Service.cs",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\Service.cs",
@@ -520,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Views\\_ViewImports.cshtml",
@@ -532,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hechm\\source\\repos\\GestionHospitalisation\\GestionHospitalisation\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "GestionHospitalisation\\Models\\ErrorViewModel.cs",

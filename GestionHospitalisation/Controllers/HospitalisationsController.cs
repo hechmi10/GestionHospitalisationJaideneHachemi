@@ -22,7 +22,7 @@ namespace GestionHospitalisation.Controllers
         // GET: Hospitalisations
         public async Task<IActionResult> Index()
         {
-            var hospitalisationContext = _context.Hospitalisation.Include(h => h.Service).Include(h => h.Patient).ToListAsync();
+            var hospitalisationContext = await _context.Hospitalisation.Include(h => h.Service).Include(h => h.Patient).ToListAsync();
             return View(hospitalisationContext);
         }
 
