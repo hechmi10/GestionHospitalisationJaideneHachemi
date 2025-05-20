@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.Service.LibServ)
             </th>
             <th>
-                @Html.DisplayNameFor(model => $"{model.Patient.Nom} {model.Patient.Prenom}")
+                Patient Name
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DateSortie)
@@ -31,10 +31,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.NumServ)
+                @Html.DisplayFor(modelItem => item.Service.LibServ)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CodePat)
+                @Html.DisplayFor(modelItem => item.Patient.Nom) @Html.DisplayFor(modelItem=> item.Patient.Prenom)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DateSortie)
